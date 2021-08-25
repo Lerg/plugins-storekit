@@ -1,0 +1,15 @@
+settings = {
+	orientation = {
+		default = 'portrait',
+		supported = {'portrait'}
+	},
+	iphone = {
+		xcassets = 'Images.xcassets',
+		plist = {
+			UILaunchStoryboardName = 'LaunchScreen',
+		},
+	},
+	plugins = {
+		['plugin.storekit'] = {publisherId = 'com.spiralcodestudio'}
+	}
+}

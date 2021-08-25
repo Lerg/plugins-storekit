@@ -1,0 +1,6 @@
+framework module plugin_storekit_ext {
+  umbrella header "plugin_storekit_ext.h"
+
+  export *
+  module * { export * }
+}
